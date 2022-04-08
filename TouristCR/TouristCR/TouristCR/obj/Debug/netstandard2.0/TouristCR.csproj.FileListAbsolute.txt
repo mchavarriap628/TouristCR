@@ -1,0 +1,16 @@
+C:\Users\Usuario\Documents\TouristCR\TouristCR\TouristCR\TouristCR\bin\Debug\netstandard2.0\TouristCR.deps.json
+C:\Users\Usuario\Documents\TouristCR\TouristCR\TouristCR\TouristCR\bin\Debug\netstandard2.0\TouristCR.dll
+C:\Users\Usuario\Documents\TouristCR\TouristCR\TouristCR\TouristCR\bin\Debug\netstandard2.0\TouristCR.pdb
+C:\Users\Usuario\Documents\TouristCR\TouristCR\TouristCR\TouristCR\obj\Debug\netstandard2.0\TouristCR.csproj.AssemblyReference.cache
+C:\Users\Usuario\Documents\TouristCR\TouristCR\TouristCR\TouristCR\obj\Debug\netstandard2.0\TouristCR.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Documents\TouristCR\TouristCR\TouristCR\TouristCR\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Usuario\Documents\TouristCR\TouristCR\TouristCR\TouristCR\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Usuario\Documents\TouristCR\TouristCR\TouristCR\TouristCR\obj\Debug\netstandard2.0\Menu.xaml.g.cs
+C:\Users\Usuario\Documents\TouristCR\TouristCR\TouristCR\TouristCR\obj\Debug\netstandard2.0\TouristCR.AssemblyInfoInputs.cache
+C:\Users\Usuario\Documents\TouristCR\TouristCR\TouristCR\TouristCR\obj\Debug\netstandard2.0\TouristCR.AssemblyInfo.cs
+C:\Users\Usuario\Documents\TouristCR\TouristCR\TouristCR\TouristCR\obj\Debug\netstandard2.0\TouristCR.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\TouristCR\TouristCR\TouristCR\TouristCR\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Usuario\Documents\TouristCR\TouristCR\TouristCR\TouristCR\obj\Debug\netstandard2.0\TouristCR.dll
+C:\Users\Usuario\Documents\TouristCR\TouristCR\TouristCR\TouristCR\obj\Debug\netstandard2.0\refint\TouristCR.dll
+C:\Users\Usuario\Documents\TouristCR\TouristCR\TouristCR\TouristCR\obj\Debug\netstandard2.0\TouristCR.pdb
+C:\Users\Usuario\Documents\TouristCR\TouristCR\TouristCR\TouristCR\obj\Debug\netstandard2.0\ref\TouristCR.dll
