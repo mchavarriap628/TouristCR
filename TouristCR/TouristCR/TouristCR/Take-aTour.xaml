@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Base22.Take_aTour">
+  <!--Pages can be added as references or inline-->
+    <ContentPage Title="Fechas" x:Name="fechas" IsVisible="true" BackgroundColor="DarkGray" >
+        <StackLayout>
+            <Label Text="Fecha para el tour" x:Name="lblFecha" FontSize="Medium" TextColor="Black"/>
+            <DatePicker x:Name="dtFecha" TextColor="Black" />
+            <Button Text="Siguiente" x:Name="btSiguienteFecha"/>
+            
+        </StackLayout>
+        
+        
+    </ContentPage>
+    <ContentPage Title="Tiempos" x:Name="tiempos" IsVisible="true" BackgroundColor="DarkGray" >
+        <StackLayout>
+            <Grid WidthRequest="60" Margin=" 10,35,20,20 " >
+                <Button Grid.Row="0" Grid.Column="0" Text="10 de la mañana" FontSize="12" BackgroundColor="White" TextColor="Black" />
+                <Button Grid.Row="0" Grid.Column="1" Text="12 de la mañana" FontSize="12" BackgroundColor="White" TextColor="Black"/>
+                <Button Grid.Row="1" Grid.Column="0" Text="1 de la tarde" FontSize="12" BackgroundColor="White" TextColor="Black"/>
+                <Button Grid.Row="1" Grid.Column="1" Text="3 de la tarde" FontSize="12" BackgroundColor="White" TextColor="Black"/>
+                <Button Grid.Row="2" Grid.Column="0" Text="5 de la tarde" FontSize="12" BackgroundColor="White" TextColor="Black"/>
+                <Button Grid.Row="2" Grid.Column="1" Text="7 de la noche" FontSize="12" BackgroundColor="White" TextColor="Black"/>
+                <Button Grid.Row="3" Grid.Column="0" Text="9 de la noche" FontSize="12" BackgroundColor="White" TextColor="Black"/>
+                <Button Grid.Row="3" Grid.Column="1" Text="9 de la noche" FontSize="12" BackgroundColor="White" TextColor="Black"/>
+            </Grid >
+            <Button Text="Siguiente" x:Name="btSiguenteTiempos"/>
+        </StackLayout>
+    </ContentPage>
+    
+    <ContentPage Title="Tarifas Basicas" x:Name="tarifas" IsVisible="true" BackgroundColor="DarkGray">
+        <StackLayout>
+
+            <Grid WidthRequest="60" Margin="10,35,20,20" >
+                <Button Grid.Row="0" Grid.Column="0" Text="Solo" FontSize="12" BackgroundColor="White" TextColor="Black" />
+                <Button Grid.Row="0" Grid.Column="1" Text="Parejas" FontSize="12" BackgroundColor="White" TextColor="Black" />
+                <Button Grid.Row="1" Grid.Column="0" Text="Familias (3 a 4)" FontSize="12" BackgroundColor="White" TextColor="Black" />
+                <Button Grid.Row="1" Grid.Column="1" Text="Grupos (mas de 4)" FontSize="12" BackgroundColor="White" TextColor="Black" />
+            </Grid>
+            
+            <Button Text="Siguiente" x:Name="btnSiguienteTarifas"/>
+            <Button Text="Salir" x:Name="btnSalir" />
+        </StackLayout>
+
+    </ContentPage>
+</TabbedPage>

@@ -1544,8 +1544,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Essentials": "1.7.2",
+          "Xamarin.Forms": "5.0.0.2401"
         },
         "compile": {
           "bin/placeholder/TouristCR.dll": {}
@@ -3227,5 +3227,27 @@
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Essentials from 1.7.2 to 1.7.0. Reference the package directly from the project to select a different version. \r\n TouristCR.Android -> TouristCR -> Xamarin.Essentials (>= 1.7.2) \r\n TouristCR.Android -> Xamarin.Essentials (>= 1.7.0)",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "MonoAndroid,Version=v12.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms from 5.0.0.2401 to 5.0.0.2196. Reference the package directly from the project to select a different version. \r\n TouristCR.Android -> TouristCR -> Xamarin.Forms (>= 5.0.0.2401) \r\n TouristCR.Android -> Xamarin.Forms (>= 5.0.0.2196)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "MonoAndroid,Version=v12.0"
+      ]
+    }
+  ]
 }

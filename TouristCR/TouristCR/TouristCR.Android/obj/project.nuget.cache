@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "z20dQwtnYizXw06VcE3QzahPrwBDEdvj3TcXquoMutDqoEDgyz8tB68oalIKMnF6yplEoFNOaH+Pic+ZCLdmDw==",
+  "dgSpecHash": "e6PhdLjo1UZzpnSw3n9fz5ZKvpaWXSvLq5wrW3j76P12xIZEW41SZzvHXCYXOEUED/l17VZaanDNqpYoZTYxDA==",
   "success": true,
   "projectFilePath": "C:\\Users\\XPC\\source\\repos\\TouristCR\\TouristCR\\TouristCR\\TouristCR\\TouristCR.Android\\TouristCR.Android.csproj",
   "expectedPackageFiles": [
@@ -63,5 +63,26 @@
     "C:\\Users\\XPC\\.nuget\\packages\\xamarin.google.android.material\\1.4.0.2\\xamarin.google.android.material.1.4.0.2.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.google.guava.listenablefuture\\1.0.0.2\\xamarin.google.guava.listenablefuture.1.0.0.2.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Essentials from 1.7.2 to 1.7.0. Reference the package directly from the project to select a different version. \r\n TouristCR.Android -> TouristCR -> Xamarin.Essentials (>= 1.7.2) \r\n TouristCR.Android -> Xamarin.Essentials (>= 1.7.0)",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "MonoAndroid,Version=v12.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms from 5.0.0.2401 to 5.0.0.2196. Reference the package directly from the project to select a different version. \r\n TouristCR.Android -> TouristCR -> Xamarin.Forms (>= 5.0.0.2401) \r\n TouristCR.Android -> Xamarin.Forms (>= 5.0.0.2196)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "MonoAndroid,Version=v12.0"
+      ]
+    }
+  ]
 }
