@@ -15,3 +15,4 @@ C:\Users\Usuario\Documents\TouristCR\TouristCR\TouristCR\TouristCR\obj\Debug\net
 C:\Users\Usuario\Documents\TouristCR\TouristCR\TouristCR\TouristCR\obj\Debug\netstandard2.0\TouristCR.pdb
 C:\Users\Usuario\Documents\TouristCR\TouristCR\TouristCR\TouristCR\obj\Debug\netstandard2.0\ref\TouristCR.dll
 C:\Users\Usuario\Documents\TouristCR\TouristCR\TouristCR\TouristCR\obj\Debug\netstandard2.0\Registro.xaml.g.cs
+C:\Users\Usuario\Documents\TouristCR\TouristCR\TouristCR\TouristCR\obj\Debug\netstandard2.0\TestPage.xaml.g.cs

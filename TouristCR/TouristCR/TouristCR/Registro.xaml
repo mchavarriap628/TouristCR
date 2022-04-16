@@ -16,11 +16,13 @@
                 <Label Text="TouristCR" TextColor="#216f7d" FontSize="50" Padding="24,24,24,10" Margin="0,60,0,0"  HorizontalOptions="Center" FontFamily="Roboto Thin" />
                 <Label Text="Account Creation" FontSize="15" HorizontalOptions="Center" TextColor="Black"/>
 
-                <Entry Placeholder="Email" PlaceholderColor="Gray" x:Name="EntEmail" BackgroundColor="White" Margin="20,90,20,0" TextColor="Black"/>
+                <Entry Placeholder="Name" PlaceholderColor="Gray" x:Name="EntName" BackgroundColor="White" Margin="20,90,20,0" TextColor="Black"/>
+                <Entry Placeholder="Email" PlaceholderColor="Gray" x:Name="EntEmail" BackgroundColor="White" Margin="20,5,20,0" TextColor="Black"/>
                 <Entry Placeholder="Password" PlaceholderColor="Gray" x:Name="EntPass" BackgroundColor="White" Margin="20,5,20,0" TextColor="Black" IsPassword="True"/>
 
-                <Button Text="Create" x:Name="btnCreateAccount" BackgroundColor="White" Margin="20,20,20,10" TextColor="#216f7d" BorderRadius="10"/>
+                <Button Text="Create" x:Name="btnCreateAccount" BackgroundColor="#216f7d" Margin="20,20,20,10" TextColor="White" BorderRadius="10"/>
 
+                
             </StackLayout>
 
         </Grid>
