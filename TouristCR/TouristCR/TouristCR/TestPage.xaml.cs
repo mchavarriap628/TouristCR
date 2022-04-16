@@ -17,6 +17,31 @@ namespace TouristCR
         {
             InitializeComponent();
             btnVerTabla.Clicked += BtnVerTabla_Clicked;
+            btnBuscarPorCorreo.Clicked += BtnBuscarPorCorreo_Clicked;
+        }
+
+        private async void BtnBuscarPorCorreo_Clicked(object sender, EventArgs e)
+        {
+
+            string correo = entCorreo.Text;
+            var resultado = await App.SQLiteDB.GetUserByEmailAsync(correo);
+            if (correo==null)
+            {
+                await DisplayAlert("Error","Se requiere de un dato para la busqueda","OK"); 
+                entCorreo.Focus();
+            }
+            else
+            {
+                if (resultado == null)
+                {
+                    txtResultado.Text = "No se encontro el usuario";
+                }
+                else
+                {
+                    txtResultado.Text = resultado.IdUser + " " + resultado.Name + " " + resultado.Email + " " + resultado.Password;
+                }
+            }
+
         }
 
         private async void BtnVerTabla_Clicked(object sender, EventArgs e)

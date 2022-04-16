@@ -16,6 +16,7 @@
 
                 <Label Text="Tabla usuarios" FontSize="25" HorizontalOptions="Center" TextColor="Black" Padding="24,24,24,10" Margin="0,60,0,0"/>
                 <Button Text="Ver tabla" x:Name="btnVerTabla" BackgroundColor="red" Margin="20,20,20,10" TextColor="White" BorderRadius="10"/>
+                
                 <!--Lista-->
                 <ListView x:Name="lstUsers">
                     <ListView.ItemTemplate>
@@ -23,7 +24,6 @@
                             <ViewCell>
                                 <Grid>
                                     <Grid.RowDefinitions>
-                                        <RowDefinition Height="Auto"/>
                                         <RowDefinition Height="Auto"/>
                                     </Grid.RowDefinitions>
                                     <Grid.ColumnDefinitions>
@@ -43,6 +43,11 @@
                 </ListView>
                 <!--Fin Lista-->
 
+                <Label Text="Solo un usuario por correo" FontSize="25" HorizontalOptions="Center" TextColor="Black" Padding="24,24,24,10"/>
+                <Entry x:Name="entCorreo" Placeholder="correo" PlaceholderColor="Gray" TextColor="Black"/>
+                <Label x:Name="txtResultado" Text="Resultado" HorizontalOptions="Center" TextColor="Black"/>
+                <Button Text="Buscar usuario" x:Name="btnBuscarPorCorreo" BackgroundColor="red" Margin="20,20,20,10" TextColor="White" BorderRadius="10"/>
+                
 
             </StackLayout>
 
