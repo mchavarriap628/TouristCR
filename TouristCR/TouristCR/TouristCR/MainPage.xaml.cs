@@ -15,6 +15,13 @@ namespace TouristCR
             InitializeComponent();
             btnLogin.Clicked += BtnLogin_Clicked;
             btnCreateAccount.Clicked += BtnCreateAccount_Clicked;
+
+            btnPruebas.Clicked += BtnPruebas_Clicked;
+        }
+
+        private void BtnPruebas_Clicked(object sender, EventArgs e)
+        {
+            this.Navigation.PushModalAsync(new TestPage());
         }
 
         private void BtnCreateAccount_Clicked(object sender, EventArgs e)
