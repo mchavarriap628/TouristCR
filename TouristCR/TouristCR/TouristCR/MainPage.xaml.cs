@@ -14,11 +14,17 @@ namespace TouristCR
         {
             InitializeComponent();
             btnLogin.Clicked += BtnLogin_Clicked;
+            btnCreateAccount.Clicked += BtnCreateAccount_Clicked;
+        }
+
+        private void BtnCreateAccount_Clicked(object sender, EventArgs e)
+        {
+            this.Navigation.PushModalAsync(new Registro());
         }
 
         private void BtnLogin_Clicked(object sender, EventArgs e)
         {
-            if (EntEmail.Text == "manuel@ya.com" & EntPass.Text == "contraseña")
+            if (EntEmail.Text == "manuel@ya.com" & EntPass.Text == "123")
             {
                 this.Navigation.PushModalAsync(new Menu());
 
