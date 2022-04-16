@@ -29,26 +29,43 @@ namespace TouristCR
             this.Navigation.PushModalAsync(new Registro());
         }
 
-        private void BtnLogin_Clicked(object sender, EventArgs e)
+        private async void BtnLogin_Clicked(object sender, EventArgs e)
         {
-            if (EntEmail.Text == "manuel@ya.com" & EntPass.Text == "123")
-            {
-                this.Navigation.PushModalAsync(new Menu());
 
-                EntEmail.Text = "";
-                EntPass.Text = "";
+            //Authentication
+            string email = EntEmail.Text;
+            string password = EntPass.Text;
+
+            if ((EntEmail.Text == null) || (EntPass.Text == null))
+            {
+                await DisplayAlert("Authentication error", "Email address and password are required", "OK");
+                EntEmail.Focus();
             }
             else
             {
-                mensajeEmergenteAsync("Authentication Error", "Please verify the password or email are valid.");
+                //Query to internal DB
+                var queryPass = await App.SQLiteDB.GetUserByEmailAsync(email);
+
+                if (queryPass == null)
+                {
+                    await DisplayAlert("Authentication error", "User not found", "OK");
+                }
+                else
+                {
+
+                    if (EntEmail.Text == queryPass.Email & EntPass.Text == queryPass.Password)
+                    {
+                        this.Navigation.PushModalAsync(new Menu());
+
+                        EntEmail.Text = "";
+                        EntPass.Text = "";
+                    }
+
+                }
+
             }
-        }
-
-        public async Task mensajeEmergenteAsync(String titulo, String mensaje)
-        {
-            await DisplayAlert(titulo, mensaje, "OK");
-        }
-
+            
+        }//End of BtnLogin
 
 
     }

@@ -26,7 +26,7 @@
                 <Label Text="Forgot Password?" TextColor="White" HorizontalOptions="Center" Margin="0,30,0,0" x:Name="txtForgotPassword"/>
                 <Button Text="Click here if you don't have an account" TextColor="White" BackgroundColor="Transparent" FontSize="Small" HorizontalOptions="Center" Margin="0,30,0,0" x:Name="btnCreateAccount"/>
 
-                <Button IsVisible="true" Text="Pruebas" x:Name="btnPruebas" BackgroundColor="red" Margin="20,20,20,10" TextColor="white" BorderRadius="10"/>
+                <Button IsVisible="false" IsEnabled="false"  Text="Pruebas" x:Name="btnPruebas" BackgroundColor="red" Margin="20,20,20,10" TextColor="white" BorderRadius="10"/>
                 
             </StackLayout>
 
