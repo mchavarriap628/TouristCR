@@ -10,7 +10,7 @@ using Xamarin.Forms.Xaml;
 namespace TouristCR
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Menu : ContentPage
+    public partial class Menu : TabbedPage
     {
         public Menu()
         {

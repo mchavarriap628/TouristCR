@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+
+             x:Class="TouristCR.Introduccion"
+             Title="Introduccion"
+             Icon="iconsIntroduccion.png">
+    
+    <ContentPage.Content background="withe">
+        <ScrollView>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                
+                <!--Header Background-->
+                
+                <Image Source="montezuma.jpg" Aspect="AspectFit"/>
+                <Image Source="curva2.png" Aspect="AspectFill" VerticalOptions="End" />
+                
+
+                <!--name element-->
+                <StackLayout Grid.Row="1" >
+                    <Label Text="Costa Rica" FontFamily="Poppins" FontAttributes="Bold" FontSize="Title"/>
+                    <Label Text="San Jose" FontFamily="Poppins" FontAttributes="None" FontSize="Subtitle"/>
+                    
+                </StackLayout>
+
+                <!--Info-->
+                <Grid Grid.Row="2" Margin="20,0,20,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <StackLayout Grid.Row="0">
+                        <Label Text="El pueblo de Montezuma es conocido por todos los costarricenses por su carácter bohemio y sus divertidos ambientes. Este ambiente bohemio se mantiene gracias a la simpatía y amabilidad de sus habitantes, los cuales son conocidos por toda Costa Rica por sus dotes artísticas." 
+                       Grid.Row="3" 
+                       FontFamily="Poppins" FontAttributes="Bold" FontSize="Caption"
+                       Margin="20,10,20,0"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="1">
+                        <Label Text="Aunque no es de gran tamaño, a lo largo de sus coloridas calles podrás encontrar un sinfín de puestecillos donde encontrarás productos autóctonos y alimentos cien por cien ecológicos, como son sus deliciosas frutas. Además, cuenta con una amplia diversidad de restaurantes y hotelitos donde podrás disfrutar de unos días relajados y, sobre todo, divertidos." 
+                       Grid.Row="3" 
+                       FontFamily="Poppins" FontAttributes="Bold" FontSize="Caption"
+                       Margin="20,10,20,0"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="2">
+                        <Label Text="En las inmediaciones del pueblo Montezuma podrás encontrar su fantástica playa, la cual ha recibido el mismo nombre que el pueblo. En ella podrás practicar multitud de actividades y disfrutar del cálido sol costarricense. Además, allí cerca podrás encontrar las impresionantes Cascadas Montezuma, las cuales son conocidas por ser un verdadero monumento natural." 
+                       Grid.Row="3" 
+                       FontFamily="Poppins" FontAttributes="Bold" FontSize="Caption"
+                       Margin="20,10,20,0"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="3">
+                        <Label Text="Sin lugar a duda, este pequeño, pero gran pueblecito a la vez cuenta con unas condiciones ideales para disfrutar de unos días de desconexión y diversión en tu escapada a Costa Rica." 
+                       Grid.Row="3" 
+                       FontFamily="Poppins" FontAttributes="Bold" FontSize="Caption"
+                       Margin="20,10,20,0"/>
+                    </StackLayout>
+                </Grid>
+
+                <!--Image Name-->
+                <Image Source="montezumaName.png" VerticalOptions="End" HeightRequest="100"
+                         WidthRequest="350"
+                         TranslationY="50"/>
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

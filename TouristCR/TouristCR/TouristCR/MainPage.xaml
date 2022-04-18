@@ -5,8 +5,8 @@
 
     <Grid>
 
-        <Image Source="loginB.jpg" Aspect="AspectFill"/>
-        <BoxView Color="black" Opacity="0.2"/>
+        <Image Source="FondoInicio.jpg" Aspect="AspectFill"/>
+        <BoxView Color="black" Opacity="0.3"/>
 
         <Grid>
             <Grid.RowDefinitions>
@@ -17,14 +17,14 @@
 
             <StackLayout>
                 <Label Text="TouristCR" TextColor="white" FontSize="50" Padding="24,24,24,10" Margin="0,60,0,0"  HorizontalOptions="Center" FontFamily="Roboto Thin" />
-                <Label Text="Sign in to continue" FontSize="15" HorizontalOptions="Center"/>
+                <Label Text="Sign in to continue" FontSize="15" HorizontalOptions="Center" TextColor="White"/>
 
-                <Entry Placeholder="Email" PlaceholderColor="Gray" x:Name="EntEmail" BackgroundColor="White" Margin="20,90,20,0" TextColor="Black"/>
-                <Entry Placeholder="Password" PlaceholderColor="Gray" x:Name="EntPass" BackgroundColor="White" Margin="20,5,20,0" TextColor="Black" IsPassword="True"/>
+                <Entry Placeholder="Email"  PlaceholderColor="black"  x:Name="EntEmail" BackgroundColor="White" Opacity="0.7"  Margin="20,90,20,0" TextColor="Black"/>
+                <Entry Placeholder="Password" PlaceholderColor="black" x:Name="EntPass" BackgroundColor="White" Opacity="0.7"  Margin="20,5,20,0" TextColor="Black" IsPassword="True"/>
 
-                <Button Text="Login" x:Name="btnLogin" BackgroundColor="#216f7d" Margin="20,20,20,10" TextColor="white" BorderRadius="10"/>
-                <Label Text="Forgot Password?" TextColor="White" HorizontalOptions="Center" Margin="0,30,0,0" x:Name="txtForgotPassword"/>
-                <Button Text="Click here if you don't have an account" TextColor="White" BackgroundColor="Transparent" FontSize="Small" HorizontalOptions="Center" Margin="0,30,0,0" x:Name="btnCreateAccount"/>
+                <Button Text="Login" x:Name="btnLogin" BackgroundColor="#3E64DA" Margin="20,20,20,10" TextColor="white" BorderRadius="10" FontFamily="Poppins"/>
+                <Label Text="Forgot Password?" TextColor="White" HorizontalOptions="Center" Margin="0,30,0,0" x:Name="txtForgotPassword" FontFamily="Poppins" FontAttributes="Bold"/>
+                <Button Text="Click here if you don't have an account" TextColor="White" FontFamily="Poppins" FontAttributes="Bold" BackgroundColor="Transparent" FontSize="Small" HorizontalOptions="Center" Margin="10,0,0,0" x:Name="btnCreateAccount"/>
 
                 <Button IsVisible="false" IsEnabled="false"  Text="Pruebas" x:Name="btnPruebas" BackgroundColor="red" Margin="20,20,20,10" TextColor="white" BorderRadius="10"/>
                 

@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <SelectedDevice>Samsung SM-A505G</SelectedDevice>
+    <SelectedDevice>HUAWEI SNE-LX3</SelectedDevice>
     <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
-    <ActiveDebugProfile>Samsung SM-A505G</ActiveDebugProfile>
+    <ActiveDebugProfile>HUAWEI SNE-LX3</ActiveDebugProfile>
     <AndroidDesignerPreferredTheme>MainTheme</AndroidDesignerPreferredTheme>
+    <DefaultDevice>pixel_2_-_api_30</DefaultDevice>
   </PropertyGroup>
 </Project>
