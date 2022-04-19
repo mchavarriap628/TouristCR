@@ -4,11 +4,26 @@
              x:Class="TouristCR.Ecologia"
              Title="Ecologia"
              Icon="iconsEco.png">
+    
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+
+        <Grid>
+            <Image Source = "Beach2.jpg" Aspect="AspectFill"/>
+            <BoxView Color="black" Opacity="0.2"/>
+
+
+            <StackLayout>
+                <Label Text="Flora and Fauna" TextColor="white" FontSize="50" Padding="24,24,24,10" Margin="0,0,0,0"  HorizontalOptions="Center" FontFamily="Roboto Thin" />
+                <Label Text="Learn about Montezuma's wildlife and vegetation" FontSize="15" HorizontalOptions="Center"/>
+                <Button Text="Montezumas's Flora" BackgroundColor="white" Margin="20,20,20,10" TextColor="#216f7d" BorderRadius="10" x:Name="boton3"/>
+                <Image Source="flor2"  HorizontalOptions="Center" WidthRequest="200" IsVisible="false" x:Name="imagen3"/>
+                <Image Source="flora"  HorizontalOptions="Center" WidthRequest="200" IsVisible="false" x:Name="imagen4"/>
+                <Button Text="Montezumas's Fauna" BackgroundColor="white" Margin="20,20,20,10" TextColor="#216f7d" BorderRadius="10" x:Name="boton4"/>
+                <Image Source="hormiguero"  HorizontalOptions="Center" WidthRequest="200" IsVisible="false" x:Name="imagen5"/>
+                <Image Source="pajaro"  HorizontalOptions="Center" WidthRequest="200" IsVisible="false" x:Name="imagen6"/>
+            </StackLayout>
+        </Grid>
+
+
     </ContentPage.Content>
 </ContentPage>

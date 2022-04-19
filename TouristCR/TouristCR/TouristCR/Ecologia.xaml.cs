@@ -15,6 +15,22 @@ namespace TouristCR
         public Ecologia()
         {
             InitializeComponent();
+            boton3.Clicked += Boton3_Clicked;
+            boton4.Clicked += Boton4_Clicked;
+
+        }
+
+        private void Boton4_Clicked(object sender, EventArgs e)
+        {
+            imagen5.IsVisible = true;
+            imagen6.IsVisible = true;
+
+        }
+
+        private void Boton3_Clicked(object sender, EventArgs e)
+        {
+            imagen3.IsVisible = true;
+            imagen4.IsVisible = true;
         }
     }
 }

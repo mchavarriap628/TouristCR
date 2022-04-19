@@ -1300,3 +1300,10 @@ C:\Users\User\source\repos\TouristCR\TouristCR\TouristCR\TouristCR\TouristCR.And
 C:\Users\User\source\repos\TouristCR\TouristCR\TouristCR\TouristCR\TouristCR.Android\obj\Debug\120\res\drawable\montezuma.jpg
 C:\Users\User\source\repos\TouristCR\TouristCR\TouristCR\TouristCR\TouristCR.Android\obj\Debug\120\res\drawable\curva.png
 C:\Users\User\source\repos\TouristCR\TouristCR\TouristCR\TouristCR\TouristCR.Android\obj\Debug\120\res\drawable\curva2.png
+C:\Users\User\source\repos\TouristCR\TouristCR\TouristCR\TouristCR\TouristCR.Android\obj\Debug\120\res\drawable\beach2.jpg
+C:\Users\User\source\repos\TouristCR\TouristCR\TouristCR\TouristCR\TouristCR.Android\obj\Debug\120\res\drawable\cascada.jpg
+C:\Users\User\source\repos\TouristCR\TouristCR\TouristCR\TouristCR\TouristCR.Android\obj\Debug\120\res\drawable\flor2.jpg
+C:\Users\User\source\repos\TouristCR\TouristCR\TouristCR\TouristCR\TouristCR.Android\obj\Debug\120\res\drawable\flora.jpg
+C:\Users\User\source\repos\TouristCR\TouristCR\TouristCR\TouristCR\TouristCR.Android\obj\Debug\120\res\drawable\grande.jpg
+C:\Users\User\source\repos\TouristCR\TouristCR\TouristCR\TouristCR\TouristCR.Android\obj\Debug\120\res\drawable\hormiguero.jpg
+C:\Users\User\source\repos\TouristCR\TouristCR\TouristCR\TouristCR\TouristCR.Android\obj\Debug\120\res\drawable\pajaro.jpg
