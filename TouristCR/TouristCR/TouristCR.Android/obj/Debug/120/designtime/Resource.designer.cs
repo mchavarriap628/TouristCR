@@ -18855,6 +18855,9 @@ namespace TouristCR.Droid
 			// aapt resource value: 0x7F0C0004
 			public const int logoshort = 2131492868;
 			
+			// aapt resource value: 0x7F0C0005
+			public const int tcr_launcher = 2131492869;
+			
 			static Mipmap()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();

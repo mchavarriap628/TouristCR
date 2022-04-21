@@ -17,14 +17,21 @@ namespace TouristCR
             InitializeComponent();
             boton1.Clicked += Boton1_Clicked;
             Label1.IsVisible = false;
+            Label2.IsVisible = false;
             boton2.Clicked += Boton2_Clicked;
             boton3.Clicked += Boton3_Clicked;
+            boton4.Clicked += Boton4_Clicked;
 
+        }
+
+        private void Boton4_Clicked (object sender, EventArgs e)
+        {
+            ((NavigationPage)this.Parent).PushAsync(new Ecologia());
         }
 
         private void Boton3_Clicked(object sender, EventArgs e)
         {
-            ((NavigationPage)this.Parent).PushAsync(new Ecologia());
+            Label2.IsVisible = true;
         }
 
         private void Boton2_Clicked(object sender, EventArgs e)
@@ -37,5 +44,6 @@ namespace TouristCR
         {
             Label1.IsVisible = true;
         }
+
     }
 }

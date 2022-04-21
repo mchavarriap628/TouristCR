@@ -1307,3 +1307,4 @@ C:\Users\User\source\repos\TouristCR\TouristCR\TouristCR\TouristCR\TouristCR.And
 C:\Users\User\source\repos\TouristCR\TouristCR\TouristCR\TouristCR\TouristCR.Android\obj\Debug\120\res\drawable\grande.jpg
 C:\Users\User\source\repos\TouristCR\TouristCR\TouristCR\TouristCR\TouristCR.Android\obj\Debug\120\res\drawable\hormiguero.jpg
 C:\Users\User\source\repos\TouristCR\TouristCR\TouristCR\TouristCR\TouristCR.Android\obj\Debug\120\res\drawable\pajaro.jpg
+C:\Users\User\source\repos\TouristCR\TouristCR\TouristCR\TouristCR\TouristCR.Android\obj\Debug\120\res\mipmap-hdpi\tcr_launcher.png

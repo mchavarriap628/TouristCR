@@ -1,2 +1,2 @@
-AdbTarget=
+AdbTarget=-s NWB0218928020959
 AdbOptions=
