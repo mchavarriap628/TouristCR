@@ -15,7 +15,7 @@
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
 
-                <Image Source = "flora.jpg" Aspect="AspectFit" />
+                <Image Source = "FlorIma.png" Aspect="AspectFit" />
                 <Image Source="curva2.png" Aspect="AspectFill" VerticalOptions="End" />
 
                 <StackLayout Grid.Row="1">

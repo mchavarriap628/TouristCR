@@ -24,6 +24,9 @@ namespace TouristCR
         {
             imagen5.IsVisible = true;
             imagen6.IsVisible = true;
+            imagen3.IsVisible = false;
+            imagen4.IsVisible = false;
+
 
         }
 
@@ -31,6 +34,9 @@ namespace TouristCR
         {
             imagen3.IsVisible = true;
             imagen4.IsVisible = true;
+            imagen5.IsVisible = false;
+            imagen6.IsVisible = false;
+
         }
     }
 }

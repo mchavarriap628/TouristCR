@@ -45,10 +45,6 @@
                         <Button Text = "Images from Montezuma" BackgroundColor="#216f7d" Margin="20,20,20,10"  BorderRadius="10" x:Name="boton2" TextColor="white"/>
                         <Image Source="cascada.jpg"  HorizontalOptions="Center" WidthRequest="200" IsVisible="false" x:Name="imagen2"/>
                         <Image Source="Grande.jpg" WidthRequest="200" HorizontalOptions="Center" IsVisible="false" x:Name="imagen1"/>
-                        
-                        <!--Ecology button return-->
-                        <Button Text="Learn about Montezuma's Flora and Fauna" BackgroundColor="#216f7d"  TextColor="white" BorderRadius="10"  HorizontalOptions="End" x:Name="boton4"/>
-
 
                     </StackLayout>
 
