@@ -41,25 +41,29 @@
                         <Label Text="Montezuma is a picturesque small village, known for its bohemian atmosphere and the stunning natural beauty of its beaches and waterfalls. Nestled into a landscape of true tropical paradise, Montezuma is perfect for any beach lover and eco-tourist. The village is surrounded by jungle covered hills with small rivers forming scenic » waterfalls and pools. Groups of capuchin monkeys live in the forests and are easily seen." 
                        Grid.Row="3" 
                        FontFamily="Poppins" FontAttributes="Bold" FontSize="Caption"
-                       Margin="20,10,20,0"/>
+                       Margin="20,10,20,0" TextColor="Black" />
                     </StackLayout>
                     <StackLayout Grid.Row="1">
                         <Label Text="For decades Montezuma has attracted a multi-cultural blend of individualists, artists and hippies seeking an alternative livestyle. Due to its off-beat character Costa Ricans also refer to it as Montefumar or Moctezuma. The hippie roots of Montezuma come alife on Saturday morning during the local farmer's market. Here you find organic food, artwork and handicrafts, while musicians gather for a jam session" 
                        Grid.Row="3" 
                        FontFamily="Poppins" FontAttributes="Bold" FontSize="Caption"
-                       Margin="20,10,20,0"/>
+                       Margin="20,10,20,0" TextColor="Black"/>
                     </StackLayout>
                     <StackLayout Grid.Row="2">
                         <Label Text="Montezuma's center, with charming old wood houses, itinerant artists and vivid street life has an almost Caribbean flair and feels like the open-air living room of the community. Within easy walking distance are beaches, restaurants and hotels in Montezuma. Lodging options also include many budget places in hostels and cabinas." 
                        Grid.Row="3" 
                        FontFamily="Poppins" FontAttributes="Bold" FontSize="Caption"
-                       Margin="20,10,20,0"/>
+                       Margin="20,10,20,0" TextColor="Black"/>
                     </StackLayout>
                     <StackLayout Grid.Row="3">
                         <Label Text="Montezuma's nightlife hub is Chico's Bar in the village center where at night you can dance to Latin music or techno beats. Another great spot for dining, good vibes and life events is Cafe Organica. On Mondays particularly people flock to the Open Mic Nights where resident and visiting musicians entertain with life music. If you crave a more tranquil evening choose a place on the beach to enjoy the breeze and views across the Gulf of Nicoya. The scenery is particularly romantic on the nights around full moon when the moon rises behind the distant mainland of Costa Rica and shimmers on the quiet water of the Gulf." 
                        Grid.Row="3" 
                        FontFamily="Poppins" FontAttributes="Bold" FontSize="Caption"
-                       Margin="20,10,20,0"/>
+                       Margin="20,10,20,0" TextColor="Black"/>
+                        
+                        <!--Take a Tour button-->
+                        <Button Text="Take a Tour" x:Name="btnTakeTour" BackgroundColor="#216f7d" Margin="20,20,20,10" TextColor="white" BorderRadius="10" FontFamily="Poppins" />
+                        
                     </StackLayout>
                 </Grid>
 

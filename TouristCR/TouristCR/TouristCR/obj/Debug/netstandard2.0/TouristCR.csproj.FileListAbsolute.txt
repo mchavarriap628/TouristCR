@@ -38,3 +38,8 @@ C:\Users\User\source\repos\TouristCR\TouristCR\TouristCR\TouristCR\TouristCR\obj
 C:\Users\User\source\repos\TouristCR\TouristCR\TouristCR\TouristCR\TouristCR\obj\Debug\netstandard2.0\Ecologia.xaml.g.cs
 C:\Users\User\source\repos\TouristCR\TouristCR\TouristCR\TouristCR\TouristCR\obj\Debug\netstandard2.0\Geografia.xaml.g.cs
 C:\Users\User\source\repos\TouristCR\TouristCR\TouristCR\TouristCR\TouristCR\obj\Debug\netstandard2.0\Introduccion.xaml.g.cs
+C:\Users\Usuario\Documents\TouristCR\TouristCR\TouristCR\TouristCR\obj\Debug\netstandard2.0\Atracciones.xaml.g.cs
+C:\Users\Usuario\Documents\TouristCR\TouristCR\TouristCR\TouristCR\obj\Debug\netstandard2.0\Ecologia.xaml.g.cs
+C:\Users\Usuario\Documents\TouristCR\TouristCR\TouristCR\TouristCR\obj\Debug\netstandard2.0\Geografia.xaml.g.cs
+C:\Users\Usuario\Documents\TouristCR\TouristCR\TouristCR\TouristCR\obj\Debug\netstandard2.0\Introduccion.xaml.g.cs
+C:\Users\Usuario\Documents\TouristCR\TouristCR\TouristCR\TouristCR\obj\Debug\netstandard2.0\Take-aTour.xaml.g.cs

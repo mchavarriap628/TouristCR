@@ -5,7 +5,12 @@ VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TouristCR.Android", "TouristCR\TouristCR.Android\TouristCR.Android.csproj", "{5BBC2964-FF99-4C58-8065-590539F8D27A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TouristCR", "TouristCR\TouristCR\TouristCR.csproj", "{D4C841E7-6C8D-4B89-B5FD-3ADD8C0B537E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TouristCR", "TouristCR\TouristCR\TouristCR.csproj", "{D4C841E7-6C8D-4B89-B5FD-3ADD8C0B537E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{309AD7F4-74FA-4A01-9B60-5A0F5150BA8A}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

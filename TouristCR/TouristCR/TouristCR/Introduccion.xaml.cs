@@ -15,6 +15,14 @@ namespace TouristCR
         public Introduccion()
         {
             InitializeComponent();
+
+            btnTakeTour.Clicked += BtnTakeTour_Clicked;
+
+        }
+
+        private void BtnTakeTour_Clicked(object sender, EventArgs e)
+        {
+            this.Navigation.PushModalAsync(new Take_aTour());
         }
     }
 }
