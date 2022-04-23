@@ -1,37 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TouristCR.Menu">
-    
-    <ContentPage.Content>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:TouristCR"
+            x:Class="TouristCR.Menu"
+            BarTextColor="Black" BarBackground="#216f7d" SelectedTabColor="white" UnselectedTabColor="Black">
 
-        <Grid>
+    <local:Introduccion/>
+    <local:Atracciones/>
+    <local:Ecologia/>
+    <local:Geografia/>
 
-            <Image Source="menuB.jpg" Aspect="AspectFill"/>
-            <BoxView Color="black" Opacity="0.2"/>
-
-            <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="Auto"/>
-                </Grid.RowDefinitions>
-
-                <StackLayout>
-                    <Label Text="TouristCR" TextColor="white" FontSize="50" Padding="24,24,24,10" Margin="0,60,0,0"  HorizontalOptions="Center" FontFamily="Roboto Thin" />
-                    <Label Text="Montezuma - Main Menu" FontSize="15" HorizontalOptions="Center"/>
-
-                    <Button Text="About Montezuma" BackgroundColor="white" Margin="20,20,20,10" TextColor="#216f7d" BorderRadius="10"/>
-                    <Button Text="Activities in the area" BackgroundColor="white" Margin="20,20,20,10" TextColor="#216f7d" BorderRadius="10"/>
-                    <Button Text="Lodging Information" BackgroundColor="white" Margin="20,20,20,10" TextColor="#216f7d" BorderRadius="10"/>
-
-
-                </StackLayout>
-
-            </Grid>
-
-        </Grid>
-
-    </ContentPage.Content>
-    
-</ContentPage>
+</TabbedPage>
