@@ -14,6 +14,7 @@ namespace TouristCR.Data
         {
             db = new SQLiteAsyncConnection(dbPath);
             db.CreateTableAsync<User>().Wait();
+            db.CreateTableAsync<Tour>().Wait();
         }
 
         //Metodo para guardar usuarios en la tabla
@@ -29,6 +30,7 @@ namespace TouristCR.Data
             }
         }
 
+         
 
         /// <summary>
         /// Nos retorna todos los usuarios y la información de cada uno en la tabla User 
@@ -52,5 +54,24 @@ namespace TouristCR.Data
             return db.Table<User>().Where(a => a.Email == email).FirstOrDefaultAsync();
         }
 
+        // TOUR
+
+        //Guardar tour en tabla
+        public Task<int> SaveTourAsync(Tour nuevotour)
+        {
+            if (nuevotour.IdTour == 0)
+            {
+                return db.InsertAsync(nuevotour);
+            }
+            else
+            {
+                return null;
+            }
+        }
+
+        //public Task<List<Tour>> GetToursAsync() { 
+        //    return db.Table<Tour>().ToListAsync(); 
+        //} 
+        
     }
 }
