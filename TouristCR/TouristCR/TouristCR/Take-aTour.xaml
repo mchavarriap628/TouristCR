@@ -77,7 +77,7 @@
                 </Grid.RowDefinitions>
 
                 <StackLayout>
-                    <Button Text="Next" x:Name="btnSiguienteTarifas" BackgroundColor="#216f7d" TextColor="white"/>
+                    
                     <Button Text="Exit" x:Name="btnSalir" BackgroundColor="#216f7d" TextColor="white"/>
                 </StackLayout>
             </Grid>

@@ -21,7 +21,7 @@ namespace TouristCR
             btSiguienteFecha.Clicked += BtSiguienteFecha_Clicked;
             btSiguenteTiempos.Clicked += BtSiguenteTiempos_Clicked;
 
-            btnSiguienteTarifas.Clicked += BtnSiguienteTarifas_Clicked;
+            
             btnSalir.Clicked += BtnSalir_Clicked;
 
             btn1.Clicked += Btn1_Clicked;
@@ -37,11 +37,13 @@ namespace TouristCR
 
         public void correo() {
             User us = new User();
-            String Body = "PRUEBA";
+            String Body = "Date: " + dtFecha.Date.ToShortDateString()
+                        + "\n Time: " + hora
+                        + "\n Total Price: " + precio ;
             List<string> Mailers = new List<string>();
             Mailers.Add("bpowan@gmail.com");
             
-            SendEmail("SUBJECT", Body, Mailers);
+            SendEmail("Confirmacion de Tour", Body, Mailers);
 
             //String mail = us.Email;
         }
@@ -57,6 +59,7 @@ namespace TouristCR
                 };
                 
                 await Email.ComposeAsync(mensaje);
+                
             }
             catch (FeatureNotSupportedException ex)
             {
@@ -122,16 +125,10 @@ namespace TouristCR
                 hora = hora,
                 Precio = precio,    
             };     
-             
-
-        }
-
-        private void BtnSiguienteTarifas_Clicked(object sender, EventArgs e)
-        {
-            var pages = Children.GetEnumerator();
-            pages.MoveNext();
-            // pages.MoveNext();
-            CurrentPage = pages.Current;
+            await App.SQLiteDB.SaveTourAsync(tour);
+            await DisplayAlert("New tour", "The time, date and package for the tour have been safe", "ok");
+            correo();
+            this.Navigation.PushModalAsync(new Menu());
         }
 
         private void BtSiguenteTiempos_Clicked(object sender, EventArgs e)
@@ -151,10 +148,7 @@ namespace TouristCR
             //pages.MoveNext();
             CurrentPage = pages.Current;
 
-            correo();
-            //User us = new User();
-            //String mail = us.Email;
-            //Console.WriteLine("lolo:" + mail);    
+              
         }
     }
 }
