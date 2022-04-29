@@ -15,6 +15,13 @@
             </Grid.RowDefinitions>
 
             <StackLayout>
+                <Label Text="Canopy tours Montezuma." FontSize="Large" TextColor="Black"/>
+                
+                <Label Text="This canopy consist of a series of 9 cables, 134 platforms that are suspende high above the forest floor. " FontSize="Medium" TextColor="Black"  />
+                <Label Text="1.This activity last around two and a half hours." FontSize="Medium" TextColor="Black" Margin=" 0,35,20,20 "/>
+                <Label Text="2. No flip flops allowed."  FontSize="Medium" TextColor="Black" Margin=" 0,35,20,20 "/>
+                <Label Text=" 3. Childrem must be above 5 years old."  FontSize="Medium" TextColor="Black" Margin=" 0,35,20,20 "/>
+                
                 <Label Text="Pick a date for your tour" x:Name="lblFecha" FontSize="Medium" TextColor="Black" Margin=" 0,35,20,20 "/>
                 <DatePicker x:Name="dtFecha" TextColor="Black" />
                 <Button Text="Next" x:Name="btSiguienteFecha" BackgroundColor="#216f7d" TextColor="white"/>
@@ -25,15 +32,13 @@
 
     <ContentPage Title="Time of Date" x:Name="tiempos" IsVisible="true" BackgroundColor="white" >
         <StackLayout>
+            <Label Text="Seleccion una Hora de salida" x:Name="lbl_Hora"  FontSize="Medium" TextColor="Black" Margin=" 0,35,20,20 " /> 
             <Grid WidthRequest="60" Margin=" 20,35,20,20 " >
-                <Button Grid.Row="0" Grid.Column="0" Text="10:00 am" FontSize="12" BackgroundColor="#216f7d" TextColor="White" />
-                <Button Grid.Row="0" Grid.Column="1" Text="12:00 pm" FontSize="12" BackgroundColor="#216f7d" TextColor="White"/>
-                <Button Grid.Row="1" Grid.Column="0" Text="1:00 pm" FontSize="12" BackgroundColor="#216f7d" TextColor="White"/>
-                <Button Grid.Row="1" Grid.Column="1" Text="3:00 pm" FontSize="12" BackgroundColor="#216f7d" TextColor="White"/>
-                <Button Grid.Row="2" Grid.Column="0" Text="5:00 pm" FontSize="12" BackgroundColor="#216f7d" TextColor="White"/>
-                <Button Grid.Row="2" Grid.Column="1" Text="7:00 pm" FontSize="12" BackgroundColor="#216f7d" TextColor="White"/>
-                <Button Grid.Row="3" Grid.Column="0" Text="8:00 pm" FontSize="12" BackgroundColor="#216f7d" TextColor="White"/>
-                <Button Grid.Row="3" Grid.Column="1" Text="9:00 pm" FontSize="12" BackgroundColor="#216f7d" TextColor="White"/>
+                <Button Grid.Row="0" Grid.Column="0" Text="9:00 am" FontSize="12" BackgroundColor="#216f7d" TextColor="White" x:Name="btn1" />
+                <Button Grid.Row="0" Grid.Column="1" Text="1:00 pm" FontSize="12" BackgroundColor="#216f7d" TextColor="White" x:Name="btn2"/>
+                <Button Grid.Row="1" Grid.Column="0" Text="3:00 pm" FontSize="12" BackgroundColor="#216f7d" TextColor="White" x:Name="btn3"/>
+                <Button Grid.Row="1" Grid.Column="1" Text="5:00 pm" FontSize="12" BackgroundColor="#216f7d" TextColor="White" x:Name="btn4"/>
+                
             </Grid >
 
             <Grid Grid.Row="2" Margin="20,0,20,0">
@@ -55,12 +60,12 @@
 
     <ContentPage Title="Rates" x:Name="tarifas" IsVisible="true" BackgroundColor="white">
         <StackLayout>
-
+            <Label Text="Select a package " x:Name="lbl_modalida"  FontSize="Medium" TextColor="Black" Margin=" 0,35,20,20 " />
             <Grid WidthRequest="60" Margin="20,35,20,20" >
-                <Button Grid.Row="0" Grid.Column="0" Text="Alone" FontSize="12" BackgroundColor="#216f7d" TextColor="White" />
-                <Button Grid.Row="0" Grid.Column="1" Text="Couples" FontSize="12" BackgroundColor="#216f7d" TextColor="White" />
-                <Button Grid.Row="1" Grid.Column="0" Text="Families (3 to 4)" FontSize="12" BackgroundColor="#216f7d" TextColor="White" />
-                <Button Grid.Row="1" Grid.Column="1" Text="Groups (more than 4)" FontSize="12" BackgroundColor="#216f7d" TextColor="White" />
+                <Button Grid.Row="0" Grid.Column="0" Text="Alone" FontSize="12" BackgroundColor="#216f7d" TextColor="White" x:Name="btnSolo" />
+                <Button Grid.Row="0" Grid.Column="1" Text="Couples" FontSize="12" BackgroundColor="#216f7d" TextColor="White" x:Name="btnParejas" />
+                <Button Grid.Row="1" Grid.Column="0" Text="Families (3 to 4)" FontSize="12" BackgroundColor="#216f7d" TextColor="White" x:Name="btnfamilia" />
+                <Button Grid.Row="1" Grid.Column="1" Text="Groups (more than 4)" FontSize="12" BackgroundColor="#216f7d" TextColor="White" x:Name="btngrupo" />
             </Grid>
 
             <Grid Grid.Row="2" Margin="20,0,20,0">
