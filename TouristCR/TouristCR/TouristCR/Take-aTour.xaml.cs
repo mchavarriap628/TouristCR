@@ -126,7 +126,7 @@ namespace TouristCR
                 Precio = precio,    
             };     
             await App.SQLiteDB.SaveTourAsync(tour);
-            await DisplayAlert("New tour", "The time, date and package for the tour have been safe", "ok");
+            await DisplayAlert("New tour", "The time, date and package for the tour have been save, confirmation have been sent to your email", "Ok");
             correo();
             this.Navigation.PushModalAsync(new Menu());
         }

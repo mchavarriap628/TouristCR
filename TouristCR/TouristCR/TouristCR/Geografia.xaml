@@ -31,16 +31,16 @@
                         
                         <!--About -->
                         <Button Text="About Montezuma's Geography" BackgroundColor="#216f7d" Margin="20,20,20,10" TextColor="white" BorderRadius="10" x:Name="boton1"/>
-                        <Label Text="-Montezuma es un poblado en la provincia de Puntarenas, Costa Rica, localizado cerca de la punta sur de la Península de Nicoya, a 8 kilómetros del pueblo de Cóbano.  
-                     -Las cascadas de Montezuma se encuentran entre las más emblemáticas de Costa Rica. Estas cascadas están inmersas en un ambiente de bosque lluvioso.                                              
-                     -Las playas son el principal atractivo de Montezuma. Playa Grande es la más popular y en el recorrido hacia ella es posible conocer otras playas y calas pequeñas, una cascada y el Refugio de la Vida Silvestre Playa Romelia"                         
-                       FontFamily="Poppins" FontAttributes="Bold" FontSize="Caption" Margin="20,0,20,0" x:Name="Label1"/>
+                        <Label FontFamily="Poppins" FontAttributes="Bold" FontSize="Caption" Margin="20,0,20,0" x:Name="about1" TextColor="Black" IsVisible="false" Text="-Montezuma es un poblado en la provincia de Puntarenas, Costa Rica, localizado cerca de la punta sur de la Península de Nicoya, a 8 kilómetros del pueblo de Cóbano."/>
+                        <Label FontFamily="Poppins" FontAttributes="Bold" FontSize="Caption" Margin="20,0,20,0" x:Name="about2" TextColor="Black" IsVisible="false" Text="-Las cascadas de Montezuma se encuentran entre las más emblemáticas de Costa Rica. Estas cascadas están inmersas en un ambiente de bosque lluvioso."/>
+                        <Label FontFamily="Poppins" FontAttributes="Bold" FontSize="Caption" Margin="20,0,20,0" x:Name="about3" TextColor="Black" IsVisible="false" Text="-Las playas son el principal atractivo de Montezuma. Playa Grande es la más popular y en el recorrido hacia ella es posible conocer otras playas y calas pequeñas, una cascada y el Refugio de la Vida Silvestre Playa Romelia"/>
 
                         <!--How to get there -->
                         <Button Text="How to get there" BackgroundColor="#216f7d" Margin="20,20,20,10" TextColor="white" BorderRadius="10" x:Name="boton3"/>
                         <Label Text="With a direct bus connects to San Jose and also stops at the international airport SJO two times per day. Travel time, with ferry ride included, is 5.5 hours. With little luggage you can also opt for the 60-min boat tour which connects Montezuma with Jaco. From there you can continue with mini buses to many other Costa Rican tourist destinations."                         
-                       FontFamily="Poppins" FontAttributes="Bold" FontSize="Caption" Margin="20,0,20,0" x:Name="Label2"/>
-                        
+                       FontFamily="Poppins" FontAttributes="Bold" FontSize="Caption" Margin="20,0,20,0" x:Name="Label2" TextColor="Black" IsVisible="false"/>
+                        <Button Text="Open location on Maps" BackgroundColor="MediumSeaGreen" Margin="40,20,40,10" TextColor="white" BorderRadius="10" x:Name="btnMaps" IsVisible="false"/>
+
                         <!--Image -->
                         <Button Text = "Images from Montezuma" BackgroundColor="#216f7d" Margin="20,20,20,10"  BorderRadius="10" x:Name="boton2" TextColor="white"/>
                         <Image Source="cascada.jpg"  HorizontalOptions="Center" WidthRequest="200" IsVisible="false" x:Name="imagen2"/>

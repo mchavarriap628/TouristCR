@@ -3630,29 +3630,21 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\XPC\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\XPC\\source\\repos\\TouristCR\\TouristCR\\TouristCR\\TouristCR\\TouristCR.Android\\TouristCR.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Documents\\TouristCR\\TouristCR\\TouristCR\\TouristCR.Android\\TouristCR.Android.csproj",
       "projectName": "TouristCR.Android",
-      "projectPath": "C:\\Users\\XPC\\source\\repos\\TouristCR\\TouristCR\\TouristCR\\TouristCR\\TouristCR.Android\\TouristCR.Android.csproj",
-      "packagesPath": "C:\\Users\\XPC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\XPC\\source\\repos\\TouristCR\\TouristCR\\TouristCR\\TouristCR\\TouristCR.Android\\obj\\",
+      "projectPath": "C:\\Users\\Usuario\\Documents\\TouristCR\\TouristCR\\TouristCR\\TouristCR.Android\\TouristCR.Android.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Usuario\\Documents\\TouristCR\\TouristCR\\TouristCR\\TouristCR.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\XPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "monoandroid12.0"
@@ -3664,8 +3656,8 @@
       "frameworks": {
         "monoandroid12.0": {
           "projectReferences": {
-            "C:\\Users\\XPC\\source\\repos\\TouristCR\\TouristCR\\TouristCR\\TouristCR\\TouristCR\\TouristCR.csproj": {
-              "projectPath": "C:\\Users\\XPC\\source\\repos\\TouristCR\\TouristCR\\TouristCR\\TouristCR\\TouristCR\\TouristCR.csproj"
+            "C:\\Users\\Usuario\\Documents\\TouristCR\\TouristCR\\TouristCR\\TouristCR\\TouristCR.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Documents\\TouristCR\\TouristCR\\TouristCR\\TouristCR\\TouristCR.csproj"
             }
           }
         }
