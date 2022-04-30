@@ -1,27 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\XPC\\source\\repos\\TouristCR\\TouristCR\\TouristCR\\TouristCR\\TouristCR\\TouristCR.csproj": {}
+    "C:\\Users\\Usuario\\Documents\\TouristCR\\TouristCR\\TouristCR\\TouristCR\\TouristCR.csproj": {}
   },
   "projects": {
-    "C:\\Users\\XPC\\source\\repos\\TouristCR\\TouristCR\\TouristCR\\TouristCR\\TouristCR\\TouristCR.csproj": {
+    "C:\\Users\\Usuario\\Documents\\TouristCR\\TouristCR\\TouristCR\\TouristCR\\TouristCR.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\XPC\\source\\repos\\TouristCR\\TouristCR\\TouristCR\\TouristCR\\TouristCR\\TouristCR.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Documents\\TouristCR\\TouristCR\\TouristCR\\TouristCR\\TouristCR.csproj",
         "projectName": "TouristCR",
-        "projectPath": "C:\\Users\\XPC\\source\\repos\\TouristCR\\TouristCR\\TouristCR\\TouristCR\\TouristCR\\TouristCR.csproj",
-        "packagesPath": "C:\\Users\\XPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\XPC\\source\\repos\\TouristCR\\TouristCR\\TouristCR\\TouristCR\\TouristCR\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\Documents\\TouristCR\\TouristCR\\TouristCR\\TouristCR\\TouristCR.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Documents\\TouristCR\\TouristCR\\TouristCR\\TouristCR\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\XPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"

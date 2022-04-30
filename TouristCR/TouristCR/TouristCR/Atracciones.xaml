@@ -4,44 +4,42 @@
              x:Class="TouristCR.Atracciones"
              Title="Atractions"
              Icon="iconsAtracciones.png">
-    
-    <ContentPage.Content>
-        <ScrollView>
-            <ListView ItemsSource="{Binding Infolist}"
-                  CachingStrategy="RecycleElement"
-                  HasUnevenRows="true">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <ViewCell>
-                            <StackLayout Padding="5">
-                                <Image Source="{Binding Archivo}" Width="100" />
-                                <Label Text="{Binding Name}"
-                                   FontSize="Body"
-                                   TextColor="Black"/>
-                                <Grid BackgroundColor="White">
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="Auto"/>
-                                    <RowDefinition Height="Auto"/>
-                                </Grid.RowDefinitions>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="Auto"/>
-                                    <ColumnDefinition Width="Auto"/>
-                                </Grid.ColumnDefinitions>
-                                <Label Grid.Row="0" Grid.Column="0" 
-                                       Text="{Binding City}"/>
-                                <Button Grid.Row="0" Grid.Column="1" 
-                                        Grid.RowSpan="2"
-                                        Text="Detalles"
-                                        BackgroundColor="Aqua"
-                                        HorizontalOptions="Center"
-                                        VerticalOptions="Center"/>
-                                </Grid>
-                            </StackLayout>
-                        </ViewCell>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-   
-              </ListView>
-        </ScrollView>
-    </ContentPage.Content>
+
+    <StackLayout Margin="20,20,20,20">
+        <ListView ItemsSource="{Binding Listas}"
+                      HasUnevenRows="true"
+                      BackgroundColor="#216f7d"
+                      ItemSelected="ListView_ItemSelected"
+                      ItemTapped="ListView_ItemTapped">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="10" Margin="10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.RowSpan="2"
+                                 Source="{Binding URL}"
+                                 Aspect="AspectFill"   
+                                 HeightRequest="60"
+                                 WidthRequest="60" />
+                            <Label Grid.Column="1" 
+                                  Text="{Binding Name}"
+                                  FontAttributes="Bold" TextColor="White"/>
+                            <Label Grid.Row="1"
+                                       Grid.Column="1" 
+                                       Text="{Binding Ubication}"
+                                       VerticalOptions="End" TextColor="White"/>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+
 </ContentPage>

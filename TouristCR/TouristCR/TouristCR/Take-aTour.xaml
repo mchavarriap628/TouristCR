@@ -15,14 +15,14 @@
             </Grid.RowDefinitions>
 
             <StackLayout>
-                <Label Text="Canopy tours Montezuma." FontSize="Large" TextColor="Black"/>
+                <Label Text="Canopy tours Montezuma." FontSize="Large" TextColor="Black" Margin=" 0,35,20,20 "/>
                 
                 <Label Text="This canopy consist of a series of 9 cables, 134 platforms that are suspende high above the forest floor. " FontSize="Medium" TextColor="Black"  />
                 <Label Text="1.This activity last around two and a half hours." FontSize="Medium" TextColor="Black" Margin=" 0,35,20,20 "/>
                 <Label Text="2. No flip flops allowed."  FontSize="Medium" TextColor="Black" Margin=" 0,35,20,20 "/>
                 <Label Text=" 3. Childrem must be above 5 years old."  FontSize="Medium" TextColor="Black" Margin=" 0,35,20,20 "/>
-                
-                <Label Text="Pick a date for your tour" x:Name="lblFecha" FontSize="Medium" TextColor="Black" Margin=" 0,35,20,20 "/>
+
+                <Label Text="Pick a date for your tour" x:Name="lblFecha" FontSize="Medium" TextColor="#216f7d" Margin=" 0,35,20,20 "/>
                 <DatePicker x:Name="dtFecha" TextColor="Black" />
                 <Button Text="Next" x:Name="btSiguienteFecha" BackgroundColor="#216f7d" TextColor="white"/>
             </StackLayout>
@@ -32,7 +32,7 @@
 
     <ContentPage Title="Time of Date" x:Name="tiempos" IsVisible="true" BackgroundColor="white" >
         <StackLayout>
-            <Label Text="Seleccion una Hora de salida" x:Name="lbl_Hora"  FontSize="Medium" TextColor="Black" Margin=" 0,35,20,20 " /> 
+            <Label Text="Select a departure time" x:Name="lbl_Hora"  FontSize="Medium" TextColor="Black" Margin="20,35,20,15" /> 
             <Grid WidthRequest="60" Margin=" 20,35,20,20 " >
                 <Button Grid.Row="0" Grid.Column="0" Text="9:00 am" FontSize="12" BackgroundColor="#216f7d" TextColor="White" x:Name="btn1" />
                 <Button Grid.Row="0" Grid.Column="1" Text="1:00 pm" FontSize="12" BackgroundColor="#216f7d" TextColor="White" x:Name="btn2"/>
@@ -60,7 +60,7 @@
 
     <ContentPage Title="Rates" x:Name="tarifas" IsVisible="true" BackgroundColor="white">
         <StackLayout>
-            <Label Text="Select a package " x:Name="lbl_modalida"  FontSize="Medium" TextColor="Black" Margin=" 0,35,20,20 " />
+            <Label Text="Select a package " x:Name="lbl_modalida"  FontSize="Medium" TextColor="Black" Margin="20,35,20,15" />
             <Grid WidthRequest="60" Margin="20,35,20,20" >
                 <Button Grid.Row="0" Grid.Column="0" Text="Alone" FontSize="12" BackgroundColor="#216f7d" TextColor="White" x:Name="btnSolo" />
                 <Button Grid.Row="0" Grid.Column="1" Text="Couples" FontSize="12" BackgroundColor="#216f7d" TextColor="White" x:Name="btnParejas" />
@@ -78,7 +78,7 @@
 
                 <StackLayout>
                     
-                    <Button Text="Exit" x:Name="btnSalir" BackgroundColor="#216f7d" TextColor="white"/>
+                    <Button Text="Done" x:Name="btnSalir" BackgroundColor="#216f7d" TextColor="white"/>
                 </StackLayout>
             </Grid>
             
